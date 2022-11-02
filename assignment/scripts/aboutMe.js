@@ -44,7 +44,7 @@ let friendsPets = 1;
 
 // 11 - Add two pets to your `pets` variable
 
-pets += 4; 
+pets += 2; 
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
@@ -69,6 +69,16 @@ if( luckyNumber == 2 && adventurous == true ){
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
+
+if( pets <= allowedPets ){
+    console.log( "I can have more pets! ");
+}
+if( pets === allowedPets ){
+    console.log( "I have enough pets" );
+}
+if( pets >= allowedPets ){
+    console.log( "Oh no, I have too many pets!" );
+}
 
 // STRETCH GOALS:
 
